@@ -1,0 +1,74 @@
+ROM:
+• Applied March security patch patches
+• Applied April security patch patches
+• Add dedicated WiFi and Data QS tiles
+• Make chosen font affect more UI elements
+• Make lockscreen weather provider be a runtime toggle
+• Center the recents buttons
+• Settings: Move AOD schedule to the new AOD page
+• Settings: Use M3E in security hub
+• Settings: Stop animating dev options
+• Fix panic button on power menu
+• Update SmartSpace to CP1A.260305.018
+• Fix some translations
+• Add a text only status bar battery
+• OTA App: Improve reboot state reliability
+• Settings: Allow hiding account name from top level page
+• Settings: Move account preference to the bottom
+• Settings: Give custom ramping ringer settings their own page
+• Wireless Alerts: Add a toggle to enable led flash
+• Wireless Alerts: Add a toggle to handle in calls
+• Wireless Alerts: Add a toggle to show a notification
+• Wireless Alerts: Add a toggle for bottom dialog
+• Wireless Alerts: Improve UX of some toggles
+• Wireless Alerts: Enable more hidden settings and tweak some defaults
+• Updated APNs from LOS
+• Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
+• Fix volume dialog ringer drawer in landscape
+• Many more since the latest release, refer to t.me/yaapupdates
+
+Common:
+• sm6375-common: Move sscrpcd to class core
+• sm6375-common: vintf: Add motorola.hardware.camera.desktop
+• sm6375-common: switch to sf phase offset • as seen in stock • set max accquired frame buffers to 4
+• sm6375-common: Drop refresh rate overlays
+• sm6375-common: props: Disable gl backpressure
+• sm6375-common: display: Set debug.sf.auto_latch_unsignaled to 0
+• sm6375-common: power: Tune to handle AOSP Blurs with ease • boost lil clusters to max freq when expensive rendering is triggered
+• sm6375-common: powerhint: Set CPU up_rate_limit to 0 for INTERACTIVE
+• sm6375-common: rootdir: Import sched tunings from aospa-lisa • cleanup useless zram writeback stuff
+• sm6375-common: Inherit Sony Dolby
+• sm6375-common: update blobs from fogos_g V1UGS35H.75-14-9-3-1-1
+• Revert "sm6375-common: Implement OSS Dolby"
+• sm6375-common: overlay: Disable high performance transitions
+• sm6375-common: rootdir: Strip out qti boost configuration
+• sm6375-common: Cleanup class_main/early_boot/post_boot/qcom scripts
+• sm6375-common: sepolicy: Remove unused/incorrect vibrator policies
+• sm6375-common: Set SSR restart_level in init.qcom.rc
+• sm6375-common: Disable `thumbnail_block_model` of libstagefright
+• sm6375-common: Drop `debug.sf.disable_client_composition_cache`
+• sm6375-common: Use fragmented defconfigs
+• sm6375-common: BoardConfigCommon: Use default clang version
+• sm6375-common: Enable blurs
+• sm6375-common: Patch qccsyshal to load versioned libprotobuf
+• sm6375-common: Patch some blobs to depend on libtinyxml2-v34.so
+• sm6375-common: rootdir: fix powerhal unable to write to node
+• sm6375-common: Drop android.hardware.tetheroffload.config
+• sm6375-common: tetheroffload: Version 1.1
+• sm6375-common: build dummy perfd-client • since our fp hal has a dependency over it
+• sm6375-common: ship init.qti.display_boot.rc
+• sm6375-common: Adjust msm_irqbalance configuration for holi
+• sm6375-common: Import MSM IRQ balancer configuration
+• sm6375-common: overlay-yaap: Set max network scan search time to 254
+• sm6375-common: Use EROFS only for user builds
+• sm6375-common: powerhint: tune FP_BOOST nodes
+• sm6375-common: Update permissions from fogos
+
+Device
+• bangkk: overlay: Set legacy UDFPS enroll UI
+• bangkk: Import dax-default from stock
+• bangkk: Add missing refresh rate overlays
+• bangkk: Add maintainer overlay
+• bangkk: Update to V1TCS35H.88-16-2
+• bangkk: Reorder overlays
+• bangkk: overlay: Setup OpenDelta for OTA
